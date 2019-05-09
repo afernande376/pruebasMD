@@ -9,7 +9,7 @@ Esta es una página de prueba sobre **servidores web**, concretamente **apache**
 **Apache** es un servidor web multiplataforma. En el siguiente enlace hay más documentación [Apache](https://httpd.apache.org/docs/2.4/).
 
 Este es un ejemplo de la página de inicio de Apache
-![MacDown Screenshot](http://d.pr/i/10UGP+)
+![MacDown Screenshot](img/apache-on-ubuntu.png)
 
 I support all the original Markdown syntaxes. But I can do so much more! Various popular but non-standard syntaxes can be turned on/off from the [**Markdown** preference pane](#markdown-pane).
 
