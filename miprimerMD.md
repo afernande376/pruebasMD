@@ -11,40 +11,30 @@ Esta es una página de prueba sobre **servidores web**, concretamente **apache**
 Este es un ejemplo de la página de inicio de Apache
 ![MacDown Screenshot](img/apache-on-ubuntu.png)
 
-I support all the original Markdown syntaxes. But I can do so much more! Various popular but non-standard syntaxes can be turned on/off from the [**Markdown** preference pane](#markdown-pane).
-
-You can specify extra HTML rendering options through the [**Rendering** preference pane](#rendering-pane).
-
-You can customize the editor window to you liking in the [**Editor** preferences pane](#editor-pane):
-
-You can configure various application (that's me!) behaviors in the [**General** preference pane](#general-pane).
-
-## The Basics
-Before I tell you about all the extra syntaxes and capabilities I have, I'll introduce you to the basics of standard markdown. If you already know markdown, and want to jump straight to learning about the fancier things I can do, I suggest you skip to the [**Markdown** preference pane](#markdown-pane). Lets jump right in.  
-
-### Line Breaks
-To force a line break, put two spaces and a newline (return) at the end of the line.
-
-* This two-line bullet 
-won't break
-
-* This two-line bullet  
-will break
-
-Here is the code:
+### Instalación
+A continuación se muestran los comandos para trabajar con Apache:
 
 ```
-* This two-line bullet 
-won't break
+sudo apt-get install apache2
 
-* This two-line bullet  
-will break
 ```
 
-### Strong and Emphasize
+### Reiniciar, para y arrancar el servicio
 
-**Strong**: `**Strong**` or `__Strong__` (Command-B)  
-*Emphasize*: `*Emphasize*` or `_Emphasize_`[^emphasize] (Command-I)
+```
+sudo service apache2 status
+
+```
+
+```
+sudo service apache2 start
+
+```
+
+```
+sudo service apache2 stop
+
+```
 
 ### Headers (like this one!)
 
